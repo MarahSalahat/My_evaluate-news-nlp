@@ -46,6 +46,7 @@ This project is part of the Udacity Front End Web Developer Nanodegree program. 
   npm i -D style-loader node-sass css-loader sass-loader
   npm i -D clean-webpack-plugin html-webpack-plugin mini-css-extract-plugin optimize-css-assets-webpack-plugin terser-webpack-plugin
 
+................
 
 
 8. **Get an API Key:**
@@ -59,11 +60,12 @@ Install dotenv:
 npm install dotenv
 Create a .env file in the root of your project and add the API key:
 
-8. **Running the Project:**
-```bash
-Build the Project:npm run build-prod
-Start the Server:npm start
+10. **Running the Project:**
+
+  ```bash
+  Build the Project:npm run build-prod
+  Start the Server:npm start
 
 
-9. **Open the Application:**
+11. **Open the Application:**
   http://localhost:8081/ in your browser
