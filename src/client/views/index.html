@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Evaluate News Article</title>
+</head>
+
+<body>
+
+    <header>
+      
+        <div>
+            Evaluate News Article with NLP
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <p>Enter a URL of an article / a blog to discover its sentiment.</p>
+            <form id="urlForm" onsubmit="return Client.handleSubmit(event)">
+                <input id="url" type="text" name="url" placeholder="Enter URL" required>
+                <button id="submitButton" type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <strong>Form Results:</strong>
+            <div id="polarity"></div>
+            <div id="agreement"></div>
+            <div id="subjectivity"></div>
+            <div id="confidence"></div>
+            <div id="irony"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Marah Salahat ,marah.salahat2001@gmail.com</p>
+    </footer>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+
+</body>
+</html>

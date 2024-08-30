@@ -1,0 +1,41 @@
+$footerbackground: rgb(75, 0, 130); 
+$whitecolor: #fff;
+$keycolor: rgb(128, 0, 128); 
+$secondarycolor: rgb(186, 85, 211); 
+$backgroundcolor: rgba(238, 234, 234, 0.7); 
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+input[type="text"] {
+    padding: 0.75rem;
+    border: 2px solid $keycolor;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 300px;
+    color: $keycolor;
+    outline: none;
+
+    &::placeholder {
+        color: $secondarycolor;
+    }
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: $secondarycolor;
+    border: none;
+    color: $whitecolor;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $keycolor;
+    }
+}

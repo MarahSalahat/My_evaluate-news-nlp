@@ -1,0 +1,18 @@
+$footerbackground: rgb(75, 0, 130); 
+$whitecolor: #fff;
+$keycolor: rgb(128, 0, 128); 
+$secondarycolor: rgb(186, 85, 211); 
+$backgroundcolor: rgba(238, 234, 234, 0.7); 
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: $footerbackground;
+    color: $whitecolor;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    margin: 0;
+}
