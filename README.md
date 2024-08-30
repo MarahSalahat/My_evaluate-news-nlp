@@ -28,13 +28,15 @@ This project is part of the Udacity Front End Web Developer Nanodegree program. 
 2. **Navigate to the Project Folder:**
   cd <project directory>
 
-3. **Clone the Repository:** 
+3. **Clone the Repository:**
+
+   ```bash
   git clone <repo>
 
-4. **Install Dependencies:**
+5. **Install Dependencies:**
   npm install
 
-5. **Install Development Tools:**
+6. **Install Development Tools:**
 
 npm i -D @babel/core @babel/preset-env babel-loader
 npm i -D style-loader node-sass css-loader sass-loader
